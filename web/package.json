@@ -1,0 +1,17 @@
+{
+  "name": "fido-guide",
+  "version": "1.0.0",
+  "description": "Yeah, no javascript library not special external tools, only ag-grid and plain javascript :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server --cors .",
+    "test": "echo \"Error: no test specified\"1 && exit 1",
+    "lint": "xo --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "xo": "^0.30.0"
+  }
+}

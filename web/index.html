@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIDO Guide</title>
+    <script src="libs/ag-grid/ag-grid-community.min.noStyle.js"></script>
+    <link href="libs/ag-grid/ag-grid.css" rel="stylesheet">
+    <link href="libs/ag-grid/ag-theme-alpine.css" rel="stylesheet">
+    <style>
+        #myGrid ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #myGrid ul li {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="ag-theme-alpine" id="myGrid" style="height: 100vh; width:500px;"></div>
+<script charset="utf-8" type="text/javascript">
+	// specify the columns
+	const columnDefs = [
+		{
+			headerName: 'Name',
+			field: 'name',
+            filter: 'agTextColumnFilter',
+            floatingFilter: true,
+			cellRenderer: function (params) {
+				return `<a href=${params.data.source} target="_blank">${params.value}</a>`;
+			}
+		},
+		{
+			headerName: 'Shop',
+			field: 'shop',
+            cellRenderer: function (params) {
+				console.log(params);
+				const html = params.value.reduce(function (acc, element, idx){
+                    return `${acc}<li class="shop-${idx}"><a href="${element.website}" target="_blank">${element.name}</a></li>`
+                }, "<ul>");
+				return html + "</ul>";
+            }
+		},
+		{headerName: 'Price', field: 'price'}
+	];
+
+	// let the grid know which columns and what data to use
+	const gridOptions = {
+		columnDefs: columnDefs,
+		rowData: [],
+        defaultColDef: {
+			autoHeight: true
+        }
+	};
+
+	// lookup the container we want the Grid to use
+	const eGridDiv = document.querySelector('#myGrid');
+
+	// https://pastebin.com/raw/hFZQ5NvB
+	// create the grid passing in the div to use together with the columns & data we want to use
+	new agGrid.Grid(eGridDiv, gridOptions);
+
+	fetch('https://gist.githubusercontent.com/mszkb/bcbfd71adaf4cbfe4948fff7d4d3dd34/raw/9c062beeb35a5ff0a54a8a36ea073eaaa659debe/fido-db.json')
+		.then(function (response) {
+			return response.json();
+		})
+		.then(function (data) {
+			gridOptions.api.setRowData(data.keys);
+		});
+
+	// agGrid.simpleHttpRequest({url: 'https://pastebin.com/raw/hFZQ5NvB'}).then(function (data) {
+	// 	console.log(data);
+	// 	gridOptions.api.setRowData(data);
+	// });
+</script>
+</body>
+</html>

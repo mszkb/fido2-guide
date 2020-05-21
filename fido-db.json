@@ -1,0 +1,288 @@
+{
+    "version": 0.1,
+    "author": "mszkb",
+    "license": "ISC",
+    "keys": [
+        {
+            "name": "Trustkey G310",
+            "source": "https://www.trustkeysolutions.com/security-keys/g310/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Shop 1",
+                    "website": "https://shop1.com/"
+                },
+                {
+                    "name": "Shop 2",
+                    "website": "https://shop2.com/"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Trustkey G320",
+            "source": "https://www.trustkeysolutions.com/security-keys/g320/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Shop 1",
+                    "website": "https://shop1.com/"
+                },
+                {
+                    "name": "Shop 2",
+                    "website": "https://shop2.com/"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Trustkey T110",
+            "source": "https://www.trustkeysolutions.com/security-keys/t110/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Shop 1",
+                    "website": "https://shop1.com/"
+                },
+                {
+                    "name": "Shop 2",
+                    "website": "https://shop2.com/"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1", "CTAP2"]
+        },{
+            "name": "Trustkey T120",
+            "source": "https://www.trustkeysolutions.com/security-keys/t120/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Shop 1",
+                    "website": "https://shop1.com/"
+                },
+                {
+                    "name": "Shop 2",
+                    "website": "https://shop2.com/"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Google - Titan Security Key USB-C",
+            "source": "https://store.google.com/product/titan_security_key?hl=de",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1"]
+        },
+        {
+            "name": "Google - Titan Security Key USB-A",
+            "source": "https://store.google.com/product/titan_security_key?hl=de",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1"]
+        },
+        {
+            "name": "Google - Titan Security Key Bluetooth",
+            "source": "https://store.google.com/product/titan_security_key?hl=de",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1"]
+        },
+        {
+            "name": "Solo USB-A",
+            "source": "https://solokeys.com/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Solo USB-C",
+            "source": "https://solokeys.com/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Solo Tap USB-A",
+            "source": "https://solokeys.com/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Solo Tap USB-C",
+            "source": "https://solokeys.com/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Solo SOMU",
+            "source": "https://solokeys.com/",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Google Store",
+                    "website": "https://store.google.com/product/titan_security_key?hl=de"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "Nitrokey FIDO U2F",
+            "source": "https://shop.nitrokey.com/de_DE/shop/product/nk-u2f-nitrokey-fido-u2f-20",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Nitrokey",
+                    "website": "https://shop.nitrokey.com/de_DE/shop/product/nk-u2f-nitrokey-fido-u2f-20"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": ["CTAP1"]
+        },
+        {
+            "name": "Nitrokey FIDO2",
+            "source": "https://shop.nitrokey.com/de_DE/shop/product/nk-fi2-nitrokey-fido2-55",
+            "tags": [""],
+            "price": 0,
+            "shop": [
+                {
+                    "name": "Nitrokey",
+                    "website": "https://shop.nitrokey.com/de_DE/shop/product/nk-fi2-nitrokey-fido2-55"
+                }
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        }
+    ]
+}
