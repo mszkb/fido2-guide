@@ -469,6 +469,270 @@
                 "CTAP1",
                 "CTAP2"
             ]
+        },
+        {
+            "name": "ePass FIDO A4B",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 37,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO K10",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO K12",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO K21",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO K28",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO K39",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass FIDO NFC",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass MultiPass FIDO",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass BioPass FIDO USB-A (K27)",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass BioPass FIDO USB-C (K27)",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass AllinPass FIDO2 (K33)",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "ePass iePass FIDO (K44)",
+            "source": "https://www.ftsafe.com/Products/FIDO/Single_Button_FIDO",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
         }
     ]
 }
