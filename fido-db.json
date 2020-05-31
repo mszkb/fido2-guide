@@ -324,7 +324,7 @@
             "features": [""],
             "socketA": false,
             "socketC": true,
-            "nfc": true,
+            "nfc": false,
             "u2f": true,
             "fido2": true,
             "protocols": ["CTAP1", "CTAP2"]
@@ -339,10 +339,136 @@
             "features": [""],
             "socketA": false,
             "socketC": true,
-            "nfc": true,
+            "nfc": false,
             "u2f": true,
             "fido2": true,
             "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey 5Ci",
+            "source": "https://www.yubico.com/product/yubikey-5ci",
+            "tags": [""],
+            "price": 70,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey FIPS",
+            "source": "https://www.yubico.com/product/yubikey-fips",
+            "tags": [""],
+            "price": 46,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey C FIPS",
+            "source": "https://www.yubico.com/product/yubikey-c-fips",
+            "tags": [""],
+            "price": 58,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey Nano FIPS",
+            "source": "https://www.yubico.com/product/yubikey-nano-fips",
+            "tags": [""],
+            "price": 58,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey C Nano FIPS",
+            "source": "https://www.yubico.com/product/yubikey-c-nano-fips",
+            "tags": [
+                ""
+            ],
+            "price": 69,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": false,
+            "socketC": true,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "Security Key by Yubico",
+            "source": "https://www.yubico.com/product/security-key-by-yubico",
+            "tags": [
+                ""
+            ],
+            "price": 20,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "Security Key NFC by Yubico",
+            "source": "https://www.yubico.com/product/security-key-nfc-by-yubico",
+            "tags": [
+                ""
+            ],
+            "price": 27,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
         }
     ]
 }

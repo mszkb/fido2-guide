@@ -18,6 +18,11 @@
     </style>
 </head>
 <body>
+<h1>FIDO2 Guide</h1>
+<blockquote>
+    This is just a plain table to show all fido keys available in the database.
+    In the future a new design is created to provide the same experience like <a href="https://caniuse.com">caniuse.com</a>
+</blockquote>
 <div class="ag-theme-alpine" id="myGrid" style="height: 100vh; width:500px;"></div>
 <script charset="utf-8" type="text/javascript">
 	// specify the columns
@@ -42,7 +47,8 @@
 				return html + "</ul>";
             }
 		},
-		{headerName: 'Price', field: 'price'}
+		{headerName: 'Price', field: 'price'},
+
 	];
 
 	// let the grid know which columns and what data to use
