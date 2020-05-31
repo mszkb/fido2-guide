@@ -1,5 +1,7 @@
 # FIDO Guide
 
+> The Readme and all documentation is in german. In future it will also be published in several languages.
+
 Der FIDO Guide ist eine Datenbank und eine Übersichtsseite von allen vorhandenen FIDO zertifizierten Sicherheitsschlüssel.
 Die Datenbank ist dabei eine einfache JSON Datei um so die Collaboration zu ermöglichen.
 
