@@ -283,6 +283,66 @@
             "u2f": true,
             "fido2": true,
             "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey 5 NFC",
+            "source": "https://www.yubico.com/product/yubikey-5-nfc",
+            "tags": [""],
+            "price": 45,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey 5 nano",
+            "source": "https://www.yubico.com/product/yubikey-5-nano",
+            "tags": [""],
+            "price": 50,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey 5C",
+            "source": "https://www.yubico.com/product/yubikey-5c",
+            "tags": [""],
+            "price": 45,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
+        },
+        {
+            "name": "YubiKey 5C nano",
+            "source": "https://www.yubico.com/product/yubikey-5c-nano",
+            "tags": [""],
+            "price": 60,
+            "shop": [
+            ],
+            "features": [""],
+            "socketA": false,
+            "socketC": true,
+            "nfc": true,
+            "u2f": true,
+            "fido2": true,
+            "protocols": ["CTAP1", "CTAP2"]
         }
     ]
 }

@@ -2,7 +2,7 @@
 
 Die Datenbank stellt in erster Linie eine einfach JSON Datei dar.
 
-Der Preis soll UVP angegeben werden
+Der Preis soll UVP angegeben werden in Dollar in Float.
 
 ```json
 {
@@ -15,7 +15,7 @@ Der Preis soll UVP angegeben werden
             "source": "https://source.com/",
             "imgUrl": "https://imgurl.com/",
             "tags": ["Tag 1", "Tag 2", "Tag 3"],
-            "price": 50,
+            "price": 49.99,
             "shop": [
               {
                 "name": "Shop 1",
