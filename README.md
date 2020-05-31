@@ -7,7 +7,7 @@ Die Datenbank ist dabei eine einfache JSON Datei um so die Collaboration zu erm�
 
 ## Motivation
 
-Ich möchte eine informierende Webseite erschaffen ähnlich wie [caniuse.com](caniuse.com) um die Verbreitung und die 
+Ich möchte eine informierende Webseite erschaffen ähnlich wie [caniuse.com](http://caniuse.com) um die Verbreitung und die 
 Akzeptanz von FIDO zu unterstützen. Dabei ist es wichtig, dass hier auch viele Menschen zusammenarbeiten können, sich
 austauschen und einen Beitrag zur Datenbank leisten können.
 
