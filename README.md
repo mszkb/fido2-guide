@@ -1,5 +1,6 @@
 # FIDO Guide
 
+> DISCLAIMER: This project is in a very early stage. All the information you find might be outdated or wrong.
 > The Readme and all documentation is in german. In future it will also be published in several languages.
 
 Der FIDO Guide ist eine Datenbank und eine Übersichtsseite von allen vorhandenen FIDO zertifizierten Sicherheitsschlüssel.

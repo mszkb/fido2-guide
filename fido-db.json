@@ -733,6 +733,204 @@
                 "CTAP1",
                 "CTAP2"
             ]
+        },
+        {
+            "name": "Thetis BLE U2F Security Key",
+            "source": "https://thetis.io/collections/frontpage/products/thetis-ble-u2f-security-key",
+            "tags": [
+                ""
+            ],
+            "price": 29.99,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "Thetis U2F Security Key",
+            "source": "https://thetis.io/collections/frontpage/products/thetis-fido-u2f-security-key?variant=36886245966",
+            "tags": [
+                ""
+            ],
+            "price": 19.99,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": false,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "Thetis FIDO2 Security Key",
+            "source": "https://thetis.io/collections/fido2/products/thetis-fido2-security-key",
+            "tags": [
+                ""
+            ],
+            "price": 19.99,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "Kensington® VeriMark™ Fingerprint Key",
+            "source": "https://www.kensington.com/en-za/p/products/data-protection/biometric/kensington-verimark-fingerprint-key-supporting-windows-hello-and-fido-u2f-for-universal-2nd-facto/",
+            "tags": [
+                ""
+            ],
+            "price": 19.99,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "OnlyKey",
+            "source": "https://onlykey.io/de/collections/all/products/onlykey-color-secure-password-manager-and-2-factor-token-u2f-yubikey-otp-google-auth-make-password-hacking-obsolete?variant=469626486828",
+            "tags": [
+                ""
+            ],
+            "price": 41.29,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "uQontrol Qkey Password Vault",
+            "source": "https://qkey.com/products/qkey",
+            "tags": [
+                ""
+            ],
+            "price": 139,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "HYPERSECU K5",
+            "source": "https://hypersecu.com/tmp/products/hyperfido",
+            "tags": [
+                ""
+            ],
+            "price": 0,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "HYPERSECU Mini",
+            "source": "https://hypersecu.com/tmp/products/hyperfido",
+            "tags": [
+                ""
+            ],
+            "price": 0,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
+        },
+        {
+            "name": "HYPERSECU Titanium",
+            "source": "https://hypersecu.com/tmp/products/hyperfido",
+            "tags": [
+                ""
+            ],
+            "price": 0,
+            "shop": [
+            ],
+            "features": [
+                ""
+            ],
+            "socketA": true,
+            "socketC": false,
+            "nfc": false,
+            "u2f": true,
+            "fido2": true,
+            "protocols": [
+                "CTAP1",
+                "CTAP2"
+            ]
         }
     ]
 }
